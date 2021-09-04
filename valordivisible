@@ -11,14 +11,14 @@ int main(void){
 	
   
   if (C%A==0) 
-  	printf("el numero A/C es divisible \n");
+  	printf("el numero A es divisible \n");
   	else 
-  	printf("el numero A/C no es divisible \n");
+  	printf("el numero A no es divisible \n");
   	
   if (C%B==0) 
-  	printf("el numero B/C es divisible \n");
+  	printf("el numero B es divisible \n");
   	else 
-  	printf("el numero B/C no es divisible  \n");
+  	printf("el numero B no es divisible  \n");
   
   return 0;
   
