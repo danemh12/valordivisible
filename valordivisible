@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main(void){
+	int A=0, B=0, C=0;
+	int d, div1, div2, b;
+	printf ("introduzca el valor de A \n ");
+	scanf("%d", &A);
+	printf("introduzca el valor de B \n ");
+	scanf("%d", &B);
+	printf("introduzca el valor de C \n");
+	scanf("%d", &C);
+	
+  
+  if (C%A==0) 
+  	printf("el numero A/C es divisible \n");
+  	else 
+  	printf("el numero A/C no es divisible \n");
+  	
+  if (C%B==0) 
+  	printf("el numero B/C es divisible \n");
+  	else 
+  	printf("el numero B/C no es divisible  \n");
+  
+  return 0;
+  
+  }
+	
